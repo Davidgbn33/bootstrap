@@ -2,6 +2,8 @@
 
 ## install
 
+// utiliser un terminal bash //
+
 ### install des premières dépendences
 
 git init
@@ -17,4 +19,14 @@ npm install bootstrap
 
 ### installation des dépendances
 
+```
+
 npm install --global gulp-cli ( comme webpack )
+npm i browser-sync gulp gulp-sass --save-dev
+
+```
+
+### fichier gulpfile
+
+- création d'un fichier gulpfile.js
+- récupérer le code sur le site gulpjs.com
